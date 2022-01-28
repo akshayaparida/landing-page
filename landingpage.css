@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;1,100&family=Roboto:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Mono";
+  font-size: 18px;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+}
+.headerline {
+  background-color: #252a3a;
+}
+.logo {
+  text-decoration: none;
+  margin-right: auto;
+  color: #ffffff;
+  margin-left: 1rem;
+}
+.nav__links {
+  list-style: none;
+  display: flex;
+}
+
+.nav__links li {
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.nav__links li a:hover {
+  color: #d1f4fd;
+}
+
+#hero {
+  height: 80vh;
+  width: 100%;
+  background-color: #252a3a;
+}
+
+.section1 {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.info {
+  flex-basis: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 50px;
+}
+
+h1 {
+  color: #f9faf8;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font: 2.5rem "Roboto Mono", monospace;
+  font-weight: 800;
+}
+
+p {
+  font-size: 1.2rem;
+  width: 100%;
+  color: #fafafa;
+}
+button {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #ffffff;
+  width: 8rem;
+  font-size: 1.3rem;
+  padding: 5px;
+  border-radius: 2px;
+  margin-top: 1rem;
+  color: #000000;
+}
+
+.sectionright img {
+  max-height: 300px;
+  min-width: 580px;
+  margin-top: 6.4rem;
+}
+
+.home2 {
+  height: 95vh;
+  background-color: #ffffff;
+}
+
+.section2 {
+  text-align: center;
+  padding: 96px 0 48px;
+  color: black;
+  font: 1.4rem "Roboto Mono", monospace;
+  font-weight: 800;
+}
+
+.section2 h2 {
+  margin-top: -40px;
+}
+
+.sectionmain {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+}
+
+.imagesection img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 3px solid #eca408;
+  border-top-color: rgb(231, 140, 20);
+  border-right-color: rgb(231, 140, 20);
+  border-bottom-color: rgb(231, 140, 20);
+  border-left-color: rgb(231, 140, 20);
+  border-radius: 15px;
+}
+
+.imagesection p {
+  color: #0c0c0c;
+  width: 180px;
+  text-align: center;
+}
+
+.home3 {
+  height: 50vh;
+  background-color: #ffffff;
+}
+
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-right: 100px;
+  
+}
+
+.text {
+  font-size: 1.4rem;
+  font-family: italic;
+  font-weight: 300;
+  color: black;
+  margin-top: 100px;
+}
+.author{
+  display: flex;
+  font-weight: 900;
+  justify-content: flex-end;
+  font-family: italic;
+  color: #000000;
+  margin-top: 5px;
+}
+
+.home4{
+margin: 100px;
+
+}
+.ctacontainer{
+
+display: flex;
+align-items: center;
+background-color: #574ef9;
+margin-top: 100px;
+border-radius: 10px;
+padding: 50px;
+}
+.ctacard{
+
+display: flex;
+flex-direction:column;
+justify-content: flex-start;
+margin-right: 50px;
+
+}
+ h3{
+   display: flex;
+   justify-content: flex-start;
+   color: #fff6f6;
+   padding: 0px;
+ }
+.ctatext {
+color: #f9faf8;
+padding: 0px;
+}
+.signupbutton{
+
+margin-left: 5px;
+border: 2px solid white;
+
+}
+
+.footersection{
+  
+background-color: #252a3a;
+
+}
+
+
+.footer{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.4rem;
+height: 20vh;
+font-weight: 300;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+}
